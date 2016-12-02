@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hard</key>
+	<array>
+		<string>VERY CHALLENGING</string>
+		<string>DIFFICULT</string>
+		<string>HARD TO GUESS</string>
+		<string>SMART GUY WORD</string>
+	</array>
+	<key>Normal</key>
+	<array>
+		<string>NORMAL</string>
+		<string>AVERAGE</string>
+		<string>MILDLY CHALLENGING</string>
+		<string>SHOULD NOT BE HARD
+</string>
+	</array>
+	<key>Easy</key>
+	<array>
+		<string>EASY</string>
+		<string>SIMPLE</string>
+		<string>NOT HARD</string>
+		<string>WORD</string>
+	</array>
+</dict>
+</plist>
