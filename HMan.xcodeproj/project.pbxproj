@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C60A84C91DEF4DB70051CC6D /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A84C81DEF4DB70051CC6D /* FinalViewController.swift */; };
 		C60A84CB1DEF4DD30051CC6D /* FinalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A84CA1DEF4DD30051CC6D /* FinalModel.swift */; };
-		C60A84D11DEF6DDF0051CC6D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A84D01DEF6DDF0051CC6D /* GameView.swift */; };
-		C60A84D31DEF764D0051CC6D /* GallowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A84D21DEF764D0051CC6D /* GallowsView.swift */; };
 		C64BF7B81DEE74B5009E6E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64BF7B71DEE74B5009E6E7B /* AppDelegate.swift */; };
 		C64BF7BA1DEE74B5009E6E7B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64BF7B91DEE74B5009E6E7B /* InitialViewController.swift */; };
 		C64BF7BD1DEE74B5009E6E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64BF7BB1DEE74B5009E6E7B /* Main.storyboard */; };
@@ -20,13 +18,13 @@
 		C64BF7CC1DEE7778009E6E7B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64BF7CB1DEE7778009E6E7B /* GameModel.swift */; };
 		C64BF7CE1DEE7E3D009E6E7B /* InitialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64BF7CD1DEE7E3D009E6E7B /* InitialModel.swift */; };
 		C64BF7EE1DEE8C43009E6E7B /* MyPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C64BF7ED1DEE8C43009E6E7B /* MyPropertyList.plist */; };
+		C6C4BADC1DF27B6100474463 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C4BADB1DF27B6100474463 /* TitleView.swift */; };
+		C6EE89C81DF20BE900ACC676 /* HangmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE89C71DF20BE900ACC676 /* HangmanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C60A84C81DEF4DB70051CC6D /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalViewController.swift; path = HMan/FinalViewController.swift; sourceTree = "<group>"; };
 		C60A84CA1DEF4DD30051CC6D /* FinalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalModel.swift; sourceTree = "<group>"; };
-		C60A84D01DEF6DDF0051CC6D /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		C60A84D21DEF764D0051CC6D /* GallowsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallowsView.swift; sourceTree = "<group>"; };
 		C64BF7B41DEE74B5009E6E7B /* HMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64BF7B71DEE74B5009E6E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C64BF7B91DEE74B5009E6E7B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = HMan/InitialViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +36,8 @@
 		C64BF7CB1DEE7778009E6E7B /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		C64BF7CD1DEE7E3D009E6E7B /* InitialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialModel.swift; sourceTree = "<group>"; };
 		C64BF7ED1DEE8C43009E6E7B /* MyPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyPropertyList.plist; sourceTree = "<group>"; };
+		C6C4BADB1DF27B6100474463 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		C6EE89C71DF20BE900ACC676 /* HangmanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		C60A84CC1DEF4DDF0051CC6D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C60A84D01DEF6DDF0051CC6D /* GameView.swift */,
-				C60A84D21DEF764D0051CC6D /* GallowsView.swift */,
+				C6EE89C71DF20BE900ACC676 /* HangmanView.swift */,
+				C6C4BADB1DF27B6100474463 /* TitleView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -195,15 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EE89C81DF20BE900ACC676 /* HangmanView.swift in Sources */,
 				C64BF7BA1DEE74B5009E6E7B /* InitialViewController.swift in Sources */,
-				C60A84D31DEF764D0051CC6D /* GallowsView.swift in Sources */,
 				C60A84C91DEF4DB70051CC6D /* FinalViewController.swift in Sources */,
 				C64BF7CE1DEE7E3D009E6E7B /* InitialModel.swift in Sources */,
 				C60A84CB1DEF4DD30051CC6D /* FinalModel.swift in Sources */,
 				C64BF7CC1DEE7778009E6E7B /* GameModel.swift in Sources */,
 				C64BF7CA1DEE7753009E6E7B /* GameViewController.swift in Sources */,
-				C60A84D11DEF6DDF0051CC6D /* GameView.swift in Sources */,
 				C64BF7B81DEE74B5009E6E7B /* AppDelegate.swift in Sources */,
+				C6C4BADC1DF27B6100474463 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Z3AHX788CC;
 				INFOPLIST_FILE = HMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -337,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Z3AHX788CC;
 				INFOPLIST_FILE = HMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

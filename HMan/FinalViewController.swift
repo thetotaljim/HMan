@@ -8,12 +8,31 @@
 
 import UIKit
 
-class FinalViewController: UIViewController {
+/****************************************************************/
+/*  This FinalViewController displays the result, whether the   */
+/*  user won or lost, the number of incorrect guesses, and the  */
+/*  word they were trying to guess.                             */
+/****************************************************************/
 
+class FinalViewController: UIViewController {
+    
+    @IBOutlet weak var resultsLabel: UILabel!
+    @IBOutlet weak var topLabel: UILabel!
+    @IBOutlet weak var midLabel: UILabel!
+    @IBOutlet weak var homeButton: UIButton!
+    @IBAction func returnToHome(_ sender: AnyObject) {
+         performSegue(withIdentifier: "MoveToHome", sender: nil)
+    }
+    //  FinalModel 
+    var model : FinalModel?
+    //  View Did Load
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        self.topLabel.text = model?.getDisplayWord()
+        self.midLabel.text = String(describing: (model?.getNumOfGuesses())! )
+        self.resultsLabel.text = (model?.getResultsString())!
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +40,17 @@ class FinalViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        //  This is here in case I wanted to start tracking score or wins 
+        //  and passing this back and forth 
+        /*
+        if segue.identifier == "MoveToHome"
+        {
+            if let destinationVC = segue.destination as? FinalViewController {
+                
+            }
+        }
+        */
     }
-    */
-
 }

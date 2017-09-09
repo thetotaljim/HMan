@@ -4,25 +4,117 @@
 <dict>
 	<key>Hard</key>
 	<array>
-		<string>VERY CHALLENGING</string>
-		<string>DIFFICULT</string>
-		<string>HARD TO GUESS</string>
-		<string>SMART GUY WORD</string>
+		<string>WOOZY VODKA ZOMBIE</string>
+		<string>MEGAHERTZ MICROWAVE</string>
+		<string>PIZAZZ RAZZMATAZZ</string>
+		<string>JAUNDICED NUMBSKULL</string>
+		<string>EXODUS FROM THE ICEBOX</string>
+		<string>JAZZ HANDS</string>
+		<string>ASKEW BAGPIPES</string>
+		<string>DWARVES LIKE GAZEBOS</string>
+		<string>GALVANIZED JOCKEY</string>
 	</array>
 	<key>Normal</key>
 	<array>
-		<string>NORMAL</string>
-		<string>AVERAGE</string>
-		<string>MILDLY CHALLENGING</string>
-		<string>SHOULD NOT BE HARD
-</string>
+		<string>THE WIZARD OF OZ</string>
+		<string>CITIZEN KANE</string>
+		<string>ALL ABOUT EVE</string>
+		<string>THE GODFATHER</string>
+		<string>SINGING IN THE RAIN</string>
+		<string>A HARD DAYS NIGHT</string>
+		<string>NORTH BY NORTHWEST</string>
+		<string>KING KONG</string>
+		<string>THE ADVENTURES OF ROBIN HOOD</string>
+		<string>THE MALTESE FALCON</string>
+		<string>SHAKESPEARE IN LOVE</string>
+		<string>THE BRIDE OF FRANKENSTEIN</string>
+		<string>TAXI DRIVER</string>
+		<string>SEVEN SAMURAI</string>
+		<string>A STREETCAR NAMED DESIRE</string>
+		<string>DOCTOR STRANGELOVE</string>
+		<string>TWELVE ANGRY MEN</string>
+		<string>ROSEMARYS BABY</string>
+		<string>THE GRAPES OF WRATH</string>
+		<string>ON THE WATERFRONT</string>
+		<string>ANATOMY OF A MURDER</string>
+		<string>THE BIG LEBOWSKI</string>
+		<string>LORD OF THE RINGS</string>
+		<string>THE MONEY PIT</string>
+		<string>INVASION OF THE BODY SNATCHERS</string>
+		<string>ONCE UPON A TIME IN THE WEST</string>
+		<string>HOW TO TRAIN YOUR DRAGON</string>
+		<string>THE MANCHURIAN CANDIDATE</string>
+		<string>FINDING NEMO</string>
+		<string>MARY POPPINS</string>
+		<string>ITS A WONDERFUL LIFE</string>
+		<string>TO BE OR NOT TO BE</string>
+		<string>MONTY PYTHON AND THE HOLY GRAIL</string>
+		<string>ONE FLEW OVER THE CUCKOOS NEXT</string>
+		<string>CITY SLICKERS </string>
+		<string>BLAZING SADDLES</string>
+		<string>WHO FRAMED ROGER RABBIT</string>
+		<string>BULLETS OVER BROADWAY</string>
+		<string>DJANGO UNCHAINED</string>
+		<string>ENTER THE DRAGON</string>
+		<string>THE SPIRITS WITHIN</string>
+		<string>THE MAN WITHOUT A PAST</string>
+		<string>MAD MAX FURY ROAD</string>
+		<string>THE TREASURE OF THE SIERRA MADRE</string>
+		<string>THE HURT LOCKER</string>
+		<string>THE DARK KNIGHT</string>
+		<string>LAWRENCE OF ARABIA</string>
 	</array>
 	<key>Easy</key>
 	<array>
-		<string>EASY</string>
-		<string>SIMPLE</string>
-		<string>NOT HARD</string>
-		<string>WORD</string>
+		<string>SACRAMENTO</string>
+		<string>DENVER</string>
+		<string>HARTFORD</string>
+		<string>DOVER</string>
+		<string>TALLAHASSEE</string>
+		<string>ATLANTA</string>
+		<string>HONOLULU</string>
+		<string>BOISE</string>
+		<string>SPRINGFIELD</string>
+		<string>INDIANAPOLIS</string>
+		<string>DES MOINES</string>
+		<string>TOPEKA</string>
+		<string>FRANKFORT</string>
+		<string>BATON ROUGE</string>
+		<string>AUGUSTA</string>
+		<string>ANNAPOLIS</string>
+		<string>BOSTON</string>
+		<string>LANSING</string>
+		<string>SAINT PAUL</string>
+		<string>JACKSON</string>
+		<string>JEFFERESON CITY</string>
+		<string>HELENA</string>
+		<string>LINCOLN</string>
+		<string>CARSON CITY</string>
+		<string>CONCORD</string>
+		<string>TRENTON</string>
+		<string>SANTA FE</string>
+		<string>ALBANY</string>
+		<string>RALEIGH</string>
+		<string>BISMARK</string>
+		<string>COLUMBUS</string>
+		<string>OKLAHOMA CITY</string>
+		<string>SALEM</string>
+		<string>HARRISBURG</string>
+		<string>PROVIDENCE</string>
+		<string>COLUMBIA</string>
+		<string>PIERRE</string>
+		<string>NASHVILLE</string>
+		<string>AUSTIN</string>
+		<string>SALT LAKE CITY</string>
+		<string>MONTPELIER</string>
+		<string>RICHMOND</string>
+		<string>OLYMPIA</string>
+		<string>CHARLESTON</string>
+		<string>MADISON</string>
+		<string>CHEYENNE</string>
+		<string>JUNEAU</string>
+		<string>PHOENIX</string>
+		<string>LITTLE ROCK</string>
 	</array>
 </dict>
 </plist>

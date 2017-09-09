@@ -9,51 +9,46 @@
 import UIKit
 
 class InitialViewController: UIViewController {
-
+    
+    /************************************************************/
+    /*      InitialViewController Display Elements              */
+    /************************************************************/
     @IBOutlet weak var easyButton: UIButton!
     @IBOutlet weak var normalButton: UIButton!
     @IBOutlet weak var hardButton: UIButton!
     @IBAction func easySelected(_ sender: AnyObject) {
-        self.model.difficulty = UserDiff.Easy
+        self.model.determineUserDifficulty(sender: sender)
         performSegue(withIdentifier: "MoveToGame", sender: nil)
     }
     @IBAction func normalSelected(_ sender: AnyObject) {
-        self.model.difficulty = UserDiff.Normal
+        self.model.determineUserDifficulty(sender: sender)
         performSegue(withIdentifier: "MoveToGame", sender: nil)
     }
     @IBAction func hardSelected(_ sender: AnyObject) {
-        self.model.difficulty = UserDiff.Hard
+        self.model.determineUserDifficulty(sender: sender)
         performSegue(withIdentifier: "MoveToGame", sender: nil)
     }
     
-    
-    var model  = InitialModel()
+    //  Declare the model
+    private(set) var model  = InitialModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //  Hide the Navigation Bar
+        self.navigationController?.isNavigationBarHidden = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     // MARK: - Navigation - Segue to GameViewController
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "MoveToGame"
         {
             if let destinationVC = segue.destination as? GameViewController {
+                //  Instanciate the GameViewController's model with the user's
+                //  selected difficulty.
                 let gameModel = GameModel(diff: self.model.difficulty!)
                 destinationVC.model = gameModel
             }
-        }     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
+        }
      }
- 
 }
 
