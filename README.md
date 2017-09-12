@@ -2,7 +2,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
-[![HitCount](http://hits.dwyl.io/thetotaljim/Compiler.svg)](http://hits.dwyl.io/thetotaljim/Compiler)
+[![HitCount](http://hits.dwyl.io/thetotaljim/HMan.svg)](http://hits.dwyl.io/thetotaljim/HMan)
 
 > This is a Hangman Game Application written in Swift.  
 
