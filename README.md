@@ -39,7 +39,7 @@ Here is a list of the included files and their usage in this project:
     * Here the game is played. Functions for selecting words and tracking the progress of each turn are included in this file.
   * ``` FinalModel.swift ```
     * This file displays the results of the game.
-  * MyPropertyList.plist
+  * ``` MyPropertyList.plist ```
     * Contains the words to be guessed.
 * Views  
   * ``` HangmanView.swift ```
