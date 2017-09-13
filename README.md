@@ -32,9 +32,9 @@ Then you just play following normal hangman rules!
 ## Contents 
 
 Here is a list of the included files and their usage in this project:
-
-* ``` main.cpp ```
-  * handles the input from either passed file or command line input, and creates parse tree
+* Models
+  * ``` InitialModel.swift ```
+    *  Used to determine the the user's selected difficulty 
 * ``` node.h ```
   * data structure for use with parse tree
 * ``` token.h ```
