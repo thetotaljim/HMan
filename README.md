@@ -9,6 +9,7 @@
 This project was developed using a test driven software development process. The file structure follows Apple's Model-View-Controller communication pattern. The animations for the hangman were created using iOS Core Graphics framework.  
 
 ![Picture](https://github.com/thetotaljim/HMan/blob/master/Assets/hangman3.png)
+![Picture](https://github.com/thetotaljim/HMan/blob/master/Assets/hangmanGameOver.png)
 
 ## Requirements
 
