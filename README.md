@@ -31,7 +31,7 @@ Then you just play following normal hangman rules!
 
 ## Contents 
 
-Here is a list of the included files and their usage in this project:
+Here is a list of the included files and their usage in this project (located in the main HMan folder):
 * Models
   * ``` InitialModel.swift ```
     * Used to determine the the user's selected difficulty 
